@@ -1,0 +1,17 @@
+p {
+
+float: right;
+cursor: pointer;
+color: rgb(204, 35, 35);
+margin-left:10px;
+padding: 5px;
+color:red;
+font-weight:bold;
+
+}
+button{
+background-color:red;
+float:right;
+margin-left: -350 px;
+padding: 5px;
+}

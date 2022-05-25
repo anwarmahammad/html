@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;600&family=Cormorant+Garamond:wght@300;400;500&family=Open+Sans+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+/*nav bar */
+html,
+body {
+  overflow-x: hidden !important;
+  width: 100%;
+}
+.logo{
+  height: 30px;
+  width: 120px;
+}
+@media screen and (min-width:600){
+  .nav-bg{
+      background-color: navy;
+      color: white;
+  }
+}
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 9px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F1F1F1;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: grey; color: #fff; text-decoration: none;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+.oracle-optics-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.responsive {
+  
+  position: relative;
+  
+}
+/* #bg{
+  background-image:url("top5.jpg");
+  /* margin-top: 60px; */
+  /* max-width: 100%;
+  height: auto;
+  background-size:cover;
+  background-position: center;
+  padding:200px;
+} */
+#text {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+}
+#t1 {
+  margin-top: 10%;
+}
+input[type="range"] {
+  width: 90px;
+  height: 4px;
+}
+
+#img {
+  margin-top: 45px;
+  border-radius: 20px;
+}
+/* #footer{
+    background-color: rgba(28, 8, 100, 0.959);
+    padding: 100px;
+    position: relative;
+}
+#over{
+    border-radius: 20px;
+} */
+
+/* join with us */
+.join-with-now-playIcon{
+  background-color: #fff;
+  font-size: 79px;
+  border-radius: 75%;
+  color: #007bff;
+}
+.oracle-optics-button {
+  background-color: darkblue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 55px;
+  width: 150px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+
+/* Footer */
+.ourservices ul{
+  list-style-type: none;
+}
+.ourservices ul li a{
+  color: white;
+}
+.ourservices ul li a:hover{
+  color: cyan;
+  text-decoration: none;
+}
+.careers ul{
+  list-style-type: none;
+}
+.careers ul li a{
+  color: white;
+}
+.careers ul li a:hover{
+  color: cyan;
+  text-decoration: none;
+}
+#icon ul li a:hover{
+  color: cyan;
+}
+.footer-section-image{
+  height: 90px;
+  width: 200px;
+  margin-bottom: 36px;
+  border-width: thin;
+}
+.bg-footer{
+  background-color: #072443;
+}
+/* top and chat button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+}
+.bgcolor{
+  background-color: transparent;
+ color: #fff;
+}
+.bgcolor.scrolled{
+  background-color: rgb(29, 37, 68);
+  color:white !important;
+}
+#myBtn:hover {
+  background-color: black;
+}
+
+/* chat box */
+.open-button {
+  background-color: #3CB371;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  margin-right: 50px;
+  bottom: 23px;
+  right: 28px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #F1F1F1;
+  z-index: 9;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #F1F1F1;
+  resize: none;
+  min-height: 200px;
+}
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:0) and (max-width:991px) {
+  .bgcolor{
+    background-color: grey;
+    color: #fff;
+  }
+  h3{
+    letter-spacing: 0px;
+    word-spacing:0;
+    font-size: small;
+    
+  }
+  #top5{
+    margin-top: 60px;
+  }
+  
+  .dropbtn{
+    padding: 0;
+  }
+}
+
+
+#services{
+  cursor: pointer;
+}
+
+.address {
+  margin-top: -24px;
+  margin-left: 32px;
+}
+#xyz:hover{
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+@media screen and (min-width: 790px) {
+  .carousel-caption .caption-text {
+    position: absolute;
+    left: 360px;
+    bottom: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+#xyz3:hover{
+  transition: 0.9s;
+  transform: rotate(360deg);
+  }
+

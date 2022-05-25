@@ -1,0 +1,68 @@
+#para{
+    float: right;
+    cursor: pointer;
+    color: rgb(19, 18, 18);
+    margin-right:-5px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  button{
+    float:right;
+     margin-top: 10px;
+     margin-right: 10px;
+     color:white; 
+     background-color: red;
+     text-decoration: none;
+    }
+    table,th, td {
+      border: 1px solid rgb(189, 179, 179);
+      border-collapse: collapse;
+      padding: 50px;
+    }
+    th {
+      background-color: #96D4D4;
+    }
+    @media screen and (max-width: 1000px) {
+    .head {
+      width: 100%;
+      height:auto;
+    }
+  }
+  @media screen and (min-width: 100px) {
+  .head{
+    width: 100%;
+      height:auto;
+  }
+  }
+     @media screen and (max-width: 1000px) {
+        .footer {
+          width: 100%;
+          height:auto;
+        }
+    }
+    @media screen and (min-width: 100px) {
+      .footer{
+        width: 100%;
+          height:auto;
+      }
+    } 
+    @media screen and (max-width: 1000px) {
+      .table {
+        width: 100%;
+        height:auto;
+      }
+  }
+  @media screen and (min-width: 100px) {
+    .table{
+      width: 100%;
+        height:auto;
+    }
+  } 
+  
+  
+    h6,h2{
+      color:white;
+  
+    }

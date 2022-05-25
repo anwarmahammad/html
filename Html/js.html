@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<hr>
+<h2>What Can JavaScript Do?</h2>
+<p id="demoo">JavaScript can change HTML content.</p>
+<button type="button" onclick="document.getElementById('demoo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+<hr>
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript can change HTML attribute values.</p>
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<hr>
+<h2>What Can JavaScript Do?</h2>
+<p id="dmo">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('dmo').style.fontSize='35px'">Click Me!</button>
+
+<hr>
+<h2>What Can JavaScript Do?</h2>
+<p id="deo">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('deo').style.display='none'">Click Me!</button>
+
+<hr>
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript can show hidden HTML elements.</p>
+<p id="d" style="display:none">Hello JavaScript!</p>
+<button type="button" onclick="document.getElementById('d').style.display='block'">Click Me!</button>
+
+<hr>
+<h2>JavaScript in Body</h2>
+<p id="de"></p>
+<script>
+document.getElementById("de").innerHTML = "My First JavaScript";
+</script>
+
+<hr>
+ <script>
+function myFunction() {
+document.getElementById("d1").innerHTML = "Paragraghfhfhph changed";
+    }
+</script>
+<h2>Demo JavaScript in Head</h2>
+<h5 id="d1">A Paragraph.</h5>
+<button type="submit" onclick="myFunction()">Try it</button>
+    
+<hr>
+<h2>Demo JavaScript in Body</h2>
+<p id="emoo">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+  document.getElementById("emoo").innerHTML = "Paragrghjaph changed.";
+}
+</script>
+
+<hr>
+<h2>Demo External JavaScript</h2>
+<p id="d3">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+<script src="myScript.js"></script>
+
+<hr>
+<h2>External JavaScript</h2>
+<p id="d4">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Click Me</button>
+<p>This example uses a full web URL to link to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+<script src="https://www.w3schools.com/js/myScript.js"></script>
+
+<hr>
+<h2>External JavaScript</h2>
+<p id="d5">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<p>This example uses a file path to link to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+<script src="/js/myScript.js"></script>
+
+<hr>
+<h2>Demo External JavaScript</h2>
+<p id="d6">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+<script src="myScript.js"></script>
+
+<hr>
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+<p id="d7"></p>
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+<hr>
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+<hr>
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+<script>
+window.alert(5 + 6);
+</script>
+
+<hr>
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+<script>
+alert(5 + 6);
+</script>
+
+<hr>
+<h2>The window.print() Method</h2>
+<p>Click the button to print the current page.</p>
+<button onclick="window.print()">Print this page</button>
+
+<hr>
+<h2>JavaScript Statements</h2>
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+<p id="do"></p>
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+document.getElementById("do").innerHTML =
+"The value of z is " + z + ".";  
+</script>
+
+</body>
+</html>
+
+
+
+
+

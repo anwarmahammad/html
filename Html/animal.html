@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            
+        }
+        .header{
+            background-color: rgb(202, 187, 187);
+        }
+    
+        header{
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            padding:20px;
+        }
+        div.topnav{
+            position: sticky;
+            top:0px;
+            background-color: black;
+        
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 20px;
+            color:white;
+        }
+        a:hover{
+            background-color:darkgreen;
+            color:white;
+        }
+        
+        div.left{
+            float:left;
+            width:74.5%;
+            padding: 3px;
+        }
+        .left img{
+            width:100%;
+            height:40%;
+            
+        }
+        div.content{
+           text-align: justify;
+           font-size: 20px;
+        }
+        div.right{
+            float:left;
+            width:24.5%;
+            padding: 3px;
+           
+        }
+        div.Rcontent{
+            font-size: 18px;
+            text-align: justify;
+        }
+        .right img{
+            width:100%;
+            height:auto;
+        }
+        .horse{
+            float: left;
+            width:49.5%;
+            padding: 3px;
+            text-align: justify;
+            font-size: 20px;
+           
+        } 
+        .loop{
+            float: left;
+            width:49.5%;
+            padding: 3px;
+           
+        }
+        video{
+            padding: 1px;
+           max-width: 100%;
+           height: auto;
+        }
+        .horse1,.horse2,.horse3,.horse4{
+            float: left;
+            width:24%;
+            padding: 3px 5px 5px;
+           
+        }
+        img{
+            max-width: 100%;
+            height:auto;
+        }
+        .row::after,.mp4::after,.images::after{
+            content: " ";
+            clear: both;
+            display: table;
+        }
+        
+        .footer{
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(202, 127, 127);
+            margin-top:10px ;
+        }
+        
+        @media  screen and (max-width: 1200px){
+            div.left{
+                width:100%;
+                height: auto;
+            }
+            div.right,div.horse,div.loop{
+                width:100%;
+                height:auto;
+            }
+            div.horse1,.horse2,.horse3,.horse4{
+                width:100%;
+                height:auto;
+            }
+            img{
+                width:100%;
+                height:auto;
+            }
+          
+        }
+        @media  screen and (max-width: 780px){
+            div.header{
+                position: sticky;
+                top:0px;
+                background-color: darkgreen;
+                color:black;
+                font-weight: bold;
+            }
+            div.topnav{
+                position: relative;
+                
+            }
+            a{
+                width:100%;
+                height:auto; 
+                text-align: center; 
+            }
+            a:hover{
+                background-color: darkcyan;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header>Re:Hub</header>
+    </div>
+    <div class="topnav">
+        <a href="#" >HOME</a> 
+        <a href="#">MOVIES</a> 
+        <a href="#">VIDEOS</a> 
+        <a href="#">EVENTS</a> 
+        <a href="#">MUSIC</a> 
+        <a href="#">LIFESTYLE</a> 
+        <a href="#">BOOKS</a>
+    </div>
+    <div class="row">
+            <div class="left">
+                <div class="img1">
+                 <img src="new.jpg">
+                </div>
+                <div class="content">
+                 <h3>content</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus in rem provident repelle
+                       ndus.
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur provident repellat 
+                       aspernatur exercitationem officia dolor eos hic facilis placeat ipsum molestiae sunt in reiciendis
+                       modi, ducimus voluptates. Praesentium, quo!
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                 <div class="img2">
+                     <img src="duck.jpg">
+                 </div>
+                 <div class="Rcontent">
+                     <h3>about</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est dolores fugit atque quas 
+                        possimus odio ratione quae, eos magnam voluptate distinctio laudantium autem eaque voluptatem
+                        Quas, qui! Veritatis ad numquam repudiandae porro, explicabo harum ullam doloremque
+                        nihil! Libero eaque aliquam dicta suscipit quaerat.</p>
+                 </div>
+                 <div class="img2">
+                    <img src="flower.jpg">
+                </div>
+                <div class="Rcontent">
+                    <h3>about</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est dolores fugit atque quas 
+                       possimus odio ratione quae, eos magnam voluptate distinctio laudantium autem eaque voluptatem
+                       Quas, qui! Veritatis ad numquam repudiandae porro, explicabo harum ullam doloremque
+                       nihil! Libero eaque aliquam dicta suscipit quaerat.</p>
+                </div>
+            </div>
+    </div>
+    <div class="mp4">
+        <div class="horse">
+            <h1>HORSE RIDING</h1>
+            <P>Horse riding events have been selected as a main motif in numerous collectors' coins. One of the recent  
+                 and safely you ride. Luckily, equestrian fashion and function can go hand in hand.</P><br>
+                 <p>
+                 Horse riding events have been selected as a main motif in numerous collectors' coins. One of the recent 
+                samples is the €10 Greek Horse Riding commemorative coin, minted in 2003 to commemorate the 2004 Summer
+                 Olympics. 
+                 </p>
+        </div>
+        <div class="loop">
+            <video  controls loop>
+                <source src="pexels-mike-tyurin-5757030.mp4">
+            </video>
+        </div>
+       
+    </div>
+    
+    
+    <div class="images">
+        <div class="horse1">
+            <img src="horse1.jpg" >
+        </div>
+        <div class="horse2">
+            <img src="horse2.jpg" >
+        </div>
+        <div class="horse3">
+            <img src="horse3.jpg" >
+        </div>
+        <div class="horse4">
+            <img src="horse4.jpg">
+        </div>
+
+    </div>
+    <div class="footer">
+        <h2>thank you for visiting</h2>
+    </div>
+        
+</body>
+</html>

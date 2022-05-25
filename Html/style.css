@@ -1,0 +1,259 @@
+
+  
+  .h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #para1 {
+    text-align: center;
+    color: red;
+  }
+
+#p1 {
+    color: red;
+    text-align: center;
+  } 
+
+.p2 {
+    text-align: center;
+    color: red;
+  }
+
+
+  .p3 {
+    text-align: center;
+    color: red;
+  }
+
+  #p4  {
+    text-align: center;
+    color: red;
+    font-size: 300%;
+  }
+
+
+  #p5 {
+    text-align: center;
+    color: blue;
+  }
+
+ h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+ 
+
+  body {
+    background-color: linen;
+  }
+  
+  h3 {
+    color: maroon;
+    margin-left: 40px;
+  }
+
+
+
+ /* This is a single-line comment */ 
+#p7 {
+  color: red;
+} 
+
+h2{background-color:rgb(255, 0, 0);}
+h3 {background-color:rgb(0, 0, 255);}
+h4 {background-color:rgb(60, 179, 113);}
+h5 {background-color:rgb(238, 130, 238);}
+h6 {background-color:rgb(255, 165, 0);}
+h1 {background-color:rgb(106, 90, 205)}
+
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+} 
+
+
+
+ div {
+  background-color: green;
+}
+
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+} 
+
+
+ div {
+  background: rgb(0, 128, 0);
+}
+
+div.first {
+  background: rgba(0, 128, 0, 0.1);
+}
+
+div.second {
+  background: rgba(0, 128, 0, 0.3);
+} 
+
+ div.third { 
+  background: rgba(0, 128, 0, 0.6);
+} 
+
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+
+
+p.one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+ } 
+p.two {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+ p.three { 
+   border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}  
+ 
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+} 
+
+
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+} 
+
+
+
+h2 {
+  text-decoration: overline;
+}
+
+h3 {
+  text-decoration: line-through;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+
+
+h1 {
+  font-size: 2.5em; /* 40px/16=2.5em  */
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em  */
+ }
+
+p {
+  font-size: 0.875em; /* 14px/16=0.875em  */
+}
+
+
+body {
+  font-family: "Trirong", serif;
+}
+
+
+
+
+
+
+
